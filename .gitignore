@@ -10,6 +10,9 @@
 
 # IDEs and editors
 /.idea
+*.iml
+*.ipr
+*.iws
 /.vscode
 .project
 .classpath
