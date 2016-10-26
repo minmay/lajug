@@ -24,7 +24,9 @@ import { AboutComponent } from './about/about.component';
     HttpModule,
     RouterModule.forRoot([
       { path: '', component: ScheduleComponent },
-      { path: 'directions', component: DirectionsComponent }
+      { path: 'directions', component: DirectionsComponent },
+      { path: 'mailing-list', component: MailingListComponent },
+      { path: 'about', component: AboutComponent }
     ])
   ],
   providers: [],
