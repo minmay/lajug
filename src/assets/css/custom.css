@@ -1,0 +1,22 @@
+body {
+    margin-top: 70px;
+}
+
+#header {
+  display: table;
+  width: 100%;
+}
+
+#header > div {
+  display: table-row;
+}
+
+#header > div .logo {
+  display: table-cell;
+  text-align: left;
+}
+
+#header > div .banner {
+  display: table-cell;
+  text-align: right;
+}
