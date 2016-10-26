@@ -6,19 +6,20 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { ScheduleComponent } from './schedule/schedule.component';
+import { NextMeetingComponent } from './schedule/next-meeting/next-meeting.component';
 import { DirectionsComponent } from './directions/directions.component';
 import { MailingListComponent } from './mailing-list/mailing-list.component';
 import { AboutComponent } from './about/about.component';
-import { NextMeetingComponent } from './schedule/next-meeting/next-meeting.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     ScheduleComponent,
+    NextMeetingComponent,
     DirectionsComponent,
     MailingListComponent,
-    AboutComponent,
-    NextMeetingComponent
+    AboutComponent
   ],
   imports: [
     BrowserModule,
