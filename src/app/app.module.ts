@@ -17,7 +17,11 @@ import { DirectionsComponent } from './directions/directions.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    RouterModule.forRoot([
+      { path: '', component: ScheduleComponent },
+      { path: 'directions', component: DirectionsComponent }
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
