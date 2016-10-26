@@ -7,12 +7,14 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { DirectionsComponent } from './directions/directions.component';
+import { MailingListComponent } from './mailing-list/mailing-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ScheduleComponent,
-    DirectionsComponent
+    DirectionsComponent,
+    MailingListComponent
   ],
   imports: [
     BrowserModule,
