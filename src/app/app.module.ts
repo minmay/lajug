@@ -9,6 +9,7 @@ import { ScheduleComponent } from './schedule/schedule.component';
 import { DirectionsComponent } from './directions/directions.component';
 import { MailingListComponent } from './mailing-list/mailing-list.component';
 import { AboutComponent } from './about/about.component';
+import { NextMeetingComponent } from './schedule/next-meeting/next-meeting.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AboutComponent } from './about/about.component';
     ScheduleComponent,
     DirectionsComponent,
     MailingListComponent,
-    AboutComponent
+    AboutComponent,
+    NextMeetingComponent
   ],
   imports: [
     BrowserModule,
