@@ -7,11 +7,11 @@
     finish around 9:00.
   </dd>
   <dt>Location</dt>
-  <dd>{{meeting.location}} - <a routerLink="/directions"><i class="icon-globe"></i> directions</a>
+  <dd>{{meeting.location}} - <i class="fa fa-map-marker"></i> <a routerLink="/directions">directions</a>
   </dd>
   <dt>Hangout On Air</dt>
   <dd>
-    <span *ngIf="meeting.hangout"><a href="{{meeting.hangout}}" target="_blank"><img src="assets/images/g+16.png"/> {{hangout}}</a></span>
+    <span *ngIf="meeting.hangout"><i class="fa fa-google-plus"></i> <a href="{{meeting.hangout}}" target="_blank">{{hangout}}</a></span>
     <span *ngIf="!meeting.hangout">None Scheduled</span>
   </dd>
   <dt>Topic</dt>
@@ -31,13 +31,13 @@
   </dd>
   <dt>Abstract</dt>
   <dd>
-    <span *ngIf="meeting.abstract">{{meeting.abstract}}</span>
+    <span *ngIf="meeting.abstract" [innerHTML]="meeting.abstract"></span>
     <span *ngIf="!meeting.abstract">None currently available.</span>
   </dd>
 
   <dt *ngIf="meeting.speaker && meeting.speaker.information">Biography</dt>
-  <dd *ngIf="meeting.speaker && meeting.speaker.information">{{meeting.speaker.information}}</dd>
+  <dd *ngIf="meeting.speaker && meeting.speaker.information" [innerHTML]="meeting.speaker.information"></dd>
 
   <dt *ngIf="meeting.company && meeting.company.information">Company Information</dt>
-  <dd *ngIf="meeting.company && meeting.company.information">{{meeting.company.information}}</dd>
+  <dd *ngIf="meeting.company && meeting.company.information" [innerHTML]="meeting.company.information"></dd>
 </dl>
