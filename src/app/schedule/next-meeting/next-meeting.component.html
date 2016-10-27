@@ -1,3 +1,43 @@
-<p>
-  next-meeting works!
-</p>
+<h2>Next Meeting</h2>
+<dl class="dl-horizontal">
+  <dt>Date</dt>
+  <dd>{{meeting.date}}</dd>
+  <dt>Time</dt>
+  <dd>6:30 p.m. - We network from 6:30 and start the meeting at 7:00. We usually
+    finish around 9:00.
+  </dd>
+  <dt>Location</dt>
+  <dd>{{meeting.location}} - <a routerLink="/directions"><i class="icon-globe"></i> directions</a>
+  </dd>
+  <dt>Hangout On Air</dt>
+  <dd>
+    <span *ngIf="meeting.hangout"><a href="{{meeting.hangout}}" target="_blank"><img src="assets/images/g+16.png"/> {{hangout}}</a></span>
+    <span *ngIf="!meeting.hangout">None Scheduled</span>
+  </dd>
+  <dt>Topic</dt>
+  <dd>
+    <span *ngIf="meeting.topic">{{meeting.topic}}</span>
+    <span *ngIf="!meeting.topic">TBD</span>
+  </dd>
+  <dt>Speaker</dt>
+  <dd>
+    <span *ngIf="meeting.speaker && meeting.speaker.name">{{meeting.speaker.name}}</span>
+    <span *ngIf="!meeting.speaker || !meeting.speaker.name">TBD</span><
+    /dd>
+  <dt>Company</dt>
+  <dd>
+    <span *ngIf="meeting.company && meeting.company.name">{{meeting.company.name}}</span>
+    <span *ngIf="!meeting.company || !meeting.company.name">N/A</span>
+  </dd>
+  <dt>Abstract</dt>
+  <dd>
+    <span *ngIf="meeting.abstract">{{meeting.abstract}}</span>
+    <span *ngIf="!meeting.abstract">None currently available.</span>
+  </dd>
+
+  <dt *ngIf="meeting.speaker && meeting.speaker.information">Biography</dt>
+  <dd *ngIf="meeting.speaker && meeting.speaker.information">{{meeting.speaker.information}}</dd>
+
+  <dt *ngIf="meeting.company && meeting.company.information">Company Information</dt>
+  <dd *ngIf="meeting.company && meeting.company.information">{{meeting.company.information}}</dd>
+</dl>

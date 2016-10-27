@@ -1,3 +1,70 @@
-<p>
-  schedule works!
-</p>
+<h1>The Los Angeles Java Users' Group</h1>
+
+<p>Welcome to the Los Angeles Java Users' Group. Brought to you for Java enthusiasts by Java
+  enthusiasts.</p>
+
+<p>The Los Angeles Java Users’ Group (LAJUG) is an informal non-profit organization that
+  serves the greater Los Angeles area community of Java developers and enthusiast. We
+  usually meet on the first Tuesday of every month from 7:00 to 9:00 p.m. and discuss a
+  wide variety of technological issues that impact the Java developer community.
+  Membership is completely informal, and anybody is free to attend. Please see our Events
+  schedule for information with regards to our meetings.</p>
+
+<p>For those unfamiliar with Java, it is a programming language, platform, and set of
+  standards used to develop software solutions for a wide-variety of needs. At LAJUG you
+  will learn more about the Java platform. Furthermore, we also use our meetings as an
+  opportunity to network, foster friendships, and give back to the community from which we
+  benefit.</p>
+
+<app-next-meeting *ngIf="schedule && nextMeeting" [meeting]="nextMeeting"></app-next-meeting>
+<h2>Schedule</h2>
+<table id="schedule" *ngIf="schedule" class="table well">
+  <template ngFor let-meeting [ngForOf]="schedule.meetings">
+    <tr class="header">
+      <td><i class="icon-file"></i>Date</td>
+      <td>Topic</td>
+      <td>Location</td>
+    </tr>
+    <tr>
+      <td>{{meeting.date}}</td>
+      <td>
+        <span *ngIf="meeting.topic">{{meeting.topic}}</span>
+        <span *ngIf="!meeting.topic">TBD</span>
+      </td>
+      <td>{{meeting.location}}</td>
+    </tr>
+    <tr class="sub-header">
+      <td>Speaker</td>
+      <td>Company</td>
+      <td>Host</td>
+    </tr>
+    <tr>
+      <td>
+        <span *ngIf="meeting.speaker && meeting.speaker.name">{{meeting.speaker.name}}</span>
+        <span *ngIf="!meeting.speaker || !meeting.speaker.name">TBD</span>
+      </td>
+      <td>
+        <span *ngIf="meeting.company && meeting.company.name">{{meeting.company.name}}</span>
+        <span *ngIf="!meeting.company || !meeting.company.name">N/A</span>
+      <td>{{meeting.host}}</td>
+    </tr>
+    <tr class="sub-header">
+      <td colspan="3">YouTube</td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <a *ngIf="meeting.youtube" href="{{meeting.youtube}}" target="_blank"> {{meeting.youtube}}</a>
+        <span *ngIf="!meeting.youtube">None Available</span>
+      </td>
+    </tr>
+    <tr class="sub-header">
+      <td colspan="3">Presentation Slides</td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <a *ngIf="meeting.slides" href="{{meeting.slides}}" target="_blank"> {{meeting.slides}}</a>
+        <span *ngIf="!meeting.slides">None Available</span>
+      </td>
+    </tr>
+  </template>
+</table>
