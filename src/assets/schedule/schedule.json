@@ -1,0 +1,44 @@
+{
+  "meetings": [
+    {
+      "isNext": false,
+      "date": "February 16, 2016",
+      "topic": "Tips to Create a Modern Relational Database Design",
+      "abstract": "Software Engineers are more often required to use and design relational database.<p/> I have worked at a few places that designed and managed their relational database correctly. I have also worked at several places that seemed problematic in how they designed, used, or managed their relational database system.<p/> I will pass on what I have learned from these experiences to help developers, and organizations improve their database design.",
+      "speaker": {
+        "name": "Marco Villalobos",
+        "information": "Marco has organized LAJUG for over 10 years. He has over 16 years experience as a Software Engineer. He loves Java, concurrency, and Ad Tech."
+      },
+      "location": "Pivotal, 1333 2nd St., Santa Monica, CA 90401",
+      "host": "Marco Villalobos",
+      "slides": "https://docs.google.com/presentation/d/1IQeHJptGnU9TWCror8f5JPH1hC6xSBBTk8rRvcj_GOc/edit?usp=sharing"
+    },
+    {
+      "isNext": false,
+      "date": "March 15, 2016",
+      "topic": "Cloud Native Java",
+      "abstract": "&quot;It is not necessary to change. Survival is not mandatory.&quot; -W. Edwards Deming<p/> Work takes time to flow through an organization and ultimately be deployed to production where it captures value. It’s critical to reduce time-to-production. Software - for many organizations and industries - is a competitive advantage. Organizations break their larger software ambitions into smaller, independently deployable, feature -centric batches of work - microservices. In order to reduce the round-trip between stations of work, organizations collapse or consolidate as much of them as possible and automate the rest; developers and operations beget &quot;devops,&quot; cloud-based services and platforms (like Cloud Foundry) automate operations work and break down the need for ITIL tickets and change management boards. But velocity, for velocity’s sake, is dangerous. Microservices invite architectural complexity that few are prepared to address. In this talk, we’ll look at how high performance organizations like Ticketmaster, Alibaba, and Netflix make short work of that complexity with Spring Boot and Spring Cloud.",
+      "speaker": {
+        "name": "Joshua Long",
+        "information": "Josh (@starbuxman) is the Spring Developer Advocate at Pivotal. Josh is a Java Champion, author of 5 books (including O'Reilly's upcoming &quot;Cloud Native Java: Designing Resilient Systems with Spring Boot, Spring Cloud, and Cloud Foundry&quot;) and 3 best-selling video trainings (including &quot;Building Microservices with Spring Boot Livelessons&quot; w/ Phil Webb), and an open-source contributor (Spring Boot, Spring Integration, Spring Cloud, Activiti and Vaadin)"
+      },
+      "location": "Pivotal, 1333 2nd St., Santa Monica, CA 90401",
+      "host": "Marco Villalobos"
+    },
+    {
+      "isNext": true,
+      "date": "April 12, 2016",
+      "topic": "Enabling Java in Latency Sensitive Environments",
+      "abstract": "Enabling Java in Latency Sensitive Environments examines the core issues that have historically kept Java from performing well in low latency environments and then offers solutions without trade-offs and compromises. Learn about running at scale, how to keep 'all systems go', and how to make your on-call support team very bored.",
+      "speaker": {
+        "name": "Matt Schuetze",
+        "information": "Matt Schuetze is the Director of Product Management at Azul Systems. He is responsible for managing requirements and charting  product roadmaps for Zing and Zulu, Azul’s two Java runtime  product families. He is excited to help usher in the budding Zulu  Embedded product offering from Azul, covering aspects of both  industrial and consumer embedded applications. Matt is also the  Azul alternate on the Executive Committee of the Java Community  Process, helps run the Detroit Java User Group, and speaks at Java  User Groups and industry trade shows regularly.<p/>He has a Master’s degree in Nuclear Engineering from MIT, and a  Bachelor’s degree in Engineering Physics from the University of  Michigan."
+      },
+      "company": {
+        "name": "Azul Systems, Inc."
+      },
+      "location": "Pivotal, 1333 2nd St., Santa Monica, CA 90401",
+      "host": "Marco Villalobos"
+    }
+  ]
+}

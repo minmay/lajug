@@ -3,14 +3,15 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
+import './rxjs-extensions';
 
+import { ScheduleService } from './schedule/schedule.service';
 import { AppComponent } from './app.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { NextMeetingComponent } from './schedule/next-meeting/next-meeting.component';
 import { DirectionsComponent } from './directions/directions.component';
 import { MailingListComponent } from './mailing-list/mailing-list.component';
 import { AboutComponent } from './about/about.component';
-
 
 @NgModule({
   declarations: [
@@ -32,7 +33,7 @@ import { AboutComponent } from './about/about.component';
       { path: 'about', component: AboutComponent }
     ])
   ],
-  providers: [],
+  providers: [ScheduleService],
   bootstrap: [AppComponent]
 })
 export class AppModule {

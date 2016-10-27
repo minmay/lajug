@@ -20,3 +20,12 @@ body {
   display: table-cell;
   text-align: right;
 }
+
+#schedule .header > td {
+  font-weight: bold;
+  background: darkgray;
+}
+
+#schedule .sub-header > td {
+  font-weight: bold;
+}
