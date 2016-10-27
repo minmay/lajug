@@ -83,7 +83,7 @@
             </tr>
             <tr>
               <td colspan="3">
-                <a *ngIf="meeting.youtube" href="{{meeting.youtube}}" target="_blank"> {{meeting.youtube}}</a>
+                <span *ngIf="meeting.youtube"><i class="fa fa-youtube"></i> <a href="{{meeting.youtube}}" target="_blank"> {{meeting.youtube}}</a></span>
                 <span *ngIf="!meeting.youtube">None Available</span>
               </td>
             </tr>
@@ -92,7 +92,7 @@
             </tr>
             <tr>
               <td colspan="3">
-                <a *ngIf="meeting.slides" href="{{meeting.slides}}" target="_blank"> {{meeting.slides}}</a>
+                <span *ngIf="meeting.slides"><i class="fa fa-picture-o"></i> <a href="{{meeting.slides}}" target="_blank"> {{meeting.slides}}</a></span>
                 <span *ngIf="!meeting.slides">None Available</span>
               </td>
             </tr>
