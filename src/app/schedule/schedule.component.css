@@ -1,0 +1,3 @@
+.overflow-link {
+  overflow: hidden; text-overflow: ellipsis;
+}
