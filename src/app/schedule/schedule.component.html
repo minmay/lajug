@@ -38,67 +38,76 @@
         class="fa fa-youtube-square fa-2x"></i></a>
     </div>
   </div>
+
   <div class="row">
     <div class="col-md-12">
-
       <app-next-meeting *ngIf="schedule && nextMeeting" [meeting]="nextMeeting"></app-next-meeting>
-
-      <h2>Schedule</h2>
-
-      <div *ngIf="schedule" class="table-responsive">
-        <table id="schedule" class="table well">
-          <template ngFor let-meeting [ngForOf]="schedule.meetings">
-            <tr class="header">
-              <td><i class="icon-file"></i>Date</td>
-              <td>Topic</td>
-              <td>Location</td>
-            </tr>
-            <tr>
-              <td>{{meeting.date}}</td>
-              <td>
-                <span *ngIf="meeting.topic">{{meeting.topic}}</span>
-                <span *ngIf="!meeting.topic">TBD</span>
-              </td>
-              <td>
-                <address>{{meeting.location}}</address>
-              </td>
-            </tr>
-            <tr class="sub-header">
-              <td>Speaker</td>
-              <td>Company</td>
-              <td>Host</td>
-            </tr>
-            <tr>
-              <td>
-                <span *ngIf="meeting.speaker && meeting.speaker.name">{{meeting.speaker.name}}</span>
-                <span *ngIf="!meeting.speaker || !meeting.speaker.name">TBD</span>
-              </td>
-              <td>
-                <span *ngIf="meeting.company && meeting.company.name">{{meeting.company.name}}</span>
-                <span *ngIf="!meeting.company || !meeting.company.name">N/A</span>
-              <td>{{meeting.host}}</td>
-            </tr>
-            <tr class="sub-header">
-              <td colspan="3">YouTube</td>
-            </tr>
-            <tr>
-              <td colspan="3">
-                <span *ngIf="meeting.youtube"><i class="fa fa-youtube"></i> <a href="{{meeting.youtube}}" target="_blank"> {{meeting.youtube}}</a></span>
-                <span *ngIf="!meeting.youtube">None Available</span>
-              </td>
-            </tr>
-            <tr class="sub-header">
-              <td colspan="3">Presentation Slides</td>
-            </tr>
-            <tr>
-              <td colspan="3">
-                <span *ngIf="meeting.slides"><i class="fa fa-picture-o"></i> <a href="{{meeting.slides}}" target="_blank"> {{meeting.slides}}</a></span>
-                <span *ngIf="!meeting.slides">None Available</span>
-              </td>
-            </tr>
-          </template>
-        </table>
-      </div>
     </div>
   </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Schedule</h2>
+    </div>
+  </div>
+
+  <template *ngIf="schedule" ngFor let-meeting [ngForOf]="schedule.meetings">
+
+    <div class="row" >
+      <div class="col-md-4">
+        <h5>Date</h5>
+        {{meeting.date}}
+      </div>
+      <div class="col-md-4">
+        <h5>Topic</h5>
+        <span *ngIf="meeting.topic">{{meeting.topic}}</span>
+        <span *ngIf="!meeting.topic">TBD</span>
+      </div>
+      <div class="col-md-4">
+        <h5>Location</h5>
+        {{meeting.location}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <h5>Speaker</h5>
+        <span *ngIf="meeting.speaker && meeting.speaker.name">{{meeting.speaker.name}}</span>
+        <span *ngIf="!meeting.speaker || !meeting.speaker.name">TBD</span>
+      </div>
+      <div class="col-md-4">
+        <h5>Company</h5>
+        <span *ngIf="meeting.company && meeting.company.name">{{meeting.company.name}}</span>
+        <span *ngIf="!meeting.company || !meeting.company.name">N/A</span>
+      </div>
+      <div class="col-md-4">
+        <h5>Host</h5>
+        {{meeting.host}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h5>Youtube</h5>
+        <span *ngIf="meeting.youtube"><i class="fa fa-youtube"></i> <a href="{{meeting.youtube}}" target="_blank"> {{meeting.youtube}}</a></span>
+        <span *ngIf="!meeting.youtube">None Available</span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h5>Presentation Slides</h5>
+        <span *ngIf="meeting.slides"><i class="fa fa-picture-o"></i> <a href="{{meeting.slides}}" target="_blank"> {{meeting.slides}}</a></span>
+        <span *ngIf="!meeting.slides">None Available</span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <hr/>
+      </div>
+    </div>
+
+  </template>
+
 </div>
