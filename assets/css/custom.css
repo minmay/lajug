@@ -1,0 +1,46 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-top: 70px;
+  margin-bottom: 350px;
+}
+
+#header {
+  display: table;
+  width: 100%;
+}
+
+#header > div {
+  display: table-row;
+}
+
+#header > div .logo {
+  display: table-cell;
+  text-align: left;
+}
+
+#header > div .banner {
+  display: table-cell;
+  text-align: right;
+}
+
+#schedule .header > td {
+  font-weight: bold;
+  background: darkgray;
+}
+
+#schedule .sub-header > td {
+  font-weight: bold;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  min-height: 350px;
+  background-color: #f5f5f5;
+}
