@@ -8,34 +8,6 @@ body {
   margin-bottom: 350px;
 }
 
-#header {
-  display: table;
-  width: 100%;
-}
-
-#header > div {
-  display: table-row;
-}
-
-#header > div .logo {
-  display: table-cell;
-  text-align: left;
-}
-
-#header > div .banner {
-  display: table-cell;
-  text-align: right;
-}
-
-#schedule .header > td {
-  font-weight: bold;
-  background: darkgray;
-}
-
-#schedule .sub-header > td {
-  font-weight: bold;
-}
-
 .footer {
   position: absolute;
   bottom: 0;
