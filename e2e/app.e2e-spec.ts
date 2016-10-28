@@ -1,6 +1,6 @@
 import { LajugWebsitePage } from './app.po';
 
-describe('lajug-website App', function() {
+describe('lajug App', function() {
   let page: LajugWebsitePage;
 
   beforeEach(() => {
