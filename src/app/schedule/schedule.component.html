@@ -23,7 +23,6 @@
     </div>
     <div class="col-md-2 hidden-xs">
       <h4>Seeking Speakers</h4>
-
       <p>Interested in speaking at LAJUG? We are always looking for speakers. Please contact <i
         class="glyphicon glyphicon-envelope"></i> <a
         href="mailto:mvillalobos@kineteque.com">Marco Villalobos.</a></p>
@@ -40,8 +39,11 @@
   </div>
 
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-10">
       <app-next-meeting *ngIf="schedule && nextMeeting" [meeting]="nextMeeting"></app-next-meeting>
+    </div>
+    <div class="col-md-2">
+      <a href="https://devoxx.us" target="_blank"><img src="assets/images/sponsers/devoxx_300X250.gif"/></a>
     </div>
   </div>
 

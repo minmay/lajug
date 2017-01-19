@@ -41,7 +41,7 @@
       "host": "Marco Villalobos"
     },
     {
-      "isNext": true,
+      "isNext": false,
       "date": "November 15, 2016",
       "topic": "Improving the Developer Experience through Docker",
       "abstract": "Improving the Developer Experience through Docker.",
@@ -57,6 +57,18 @@
       "host": "Marco Villalobos",
       "youtube": "https://www.youtube.com/watch?v=1lTY0Tki-J0",
       "hangout": "https://www.youtube.com/watch?v=1lTY0Tki-J0"
+    },
+    {
+      "isNext": true,
+      "date": "February 7, 2017",
+      "topic": "Get to Production Faster with Spring Boot",
+      "abstract": "<p>Making it to production quickly is a noble goal. There will be many decisions made to get there. Agile has become mainstream, and software platforms have evolved to accommodated this movement.</p><p>This presentation will introduce Spring Boot, and help you get to production faster.<p/>",
+      "speaker": {
+        "name": "Marco Villalobos, LAJUG President",
+        "information": "Marco Villalobos is the Los Angeles Java Users' Group President."
+      },
+      "location": "Huge, Inc., 6100 Wilshire Blvd, 2nd Floor, Los Angeles, CA, 90048",
+      "host": "Marco Villalobos"
     }
   ]
 }
