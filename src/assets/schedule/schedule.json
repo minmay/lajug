@@ -55,8 +55,9 @@
       },
       "location": "Disney Synergy Lab, 512 Paula Ave., Glendale, CA 91201",
       "host": "Marco Villalobos",
-      "youtube": "https://www.youtube.com/watch?v=1lTY0Tki-J0",
-      "hangout": "https://www.youtube.com/watch?v=1lTY0Tki-J0"
+      "youtube": {
+        "stream": "https://www.youtube.com/watch?v=1lTY0Tki-J0"
+      }
     },
     {
       "isNext": true,
@@ -68,7 +69,11 @@
         "information": "Marco Villalobos is the Los Angeles Java Users' Group President."
       },
       "location": "Huge, Inc., 6100 Wilshire Blvd, 2nd Floor, Los Angeles, CA, 90048",
-      "host": "Marco Villalobos"
+      "host": "Marco Villalobos",
+      "youtube": {
+        "stream": "https://youtu.be/YAZj-Tz-3j4",
+        "embed": "https://www.youtube.com/embed/YAZj-Tz-3j4"
+      }
     }
   ]
 }

@@ -91,8 +91,8 @@
     <div class="row">
       <div class="col-md-12 overflow-link">
         <h5>Youtube</h5>
-        <span *ngIf="meeting.youtube"><i class="fa fa-youtube"></i> <a href="{{meeting.youtube}}" target="_blank"> {{meeting.youtube}}</a></span>
-        <span *ngIf="!meeting.youtube">None Available</span>
+        <span *ngIf="meeting.youtube && meeting.youtube.stream"><i class="fa fa-youtube"></i> <a href="{{meeting.youtube.stream}}" target="_blank"> {{meeting.youtube.stream}}</a></span>
+        <span *ngIf="!(meeting.youtube && meeting.youtube.stream)">None Available</span>
       </div>
     </div>
 
