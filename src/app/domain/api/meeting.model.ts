@@ -1,5 +1,6 @@
 import { Speaker } from './speaker.model';
 import { Company } from './company.model';
+import {YouTube} from "./you_tube.model";
 
 export interface Meeting {
   isNext: boolean;
@@ -10,6 +11,6 @@ export interface Meeting {
   abstract: string;
   location: string;
   company?: Company;
-  youtube?: string;
+  youtube?: YouTube;
   slides?: string;
 }
