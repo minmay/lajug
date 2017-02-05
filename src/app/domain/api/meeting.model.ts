@@ -1,6 +1,6 @@
 import { Speaker } from './speaker.model';
 import { Company } from './company.model';
-import {YouTube} from "./you_tube.model";
+import {YouTube} from './you_tube.model';
 
 export interface Meeting {
   isNext: boolean;

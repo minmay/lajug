@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ScheduleService } from './schedule.service';
 import { Schedule } from './../domain/api/schedule.model';
-import { YouTube } from './../domain/api/you_tube.model';
 import { Meeting } from './../domain/api/meeting.model';
 
 @Component({
