@@ -63,7 +63,7 @@
       "isNext": true,
       "date": "February 7, 2017",
       "topic": "Get to Production Faster with Spring Boot",
-      "abstract": "<p>Making it to production quickly is a noble goal. You will quickly need to make many decisions on your way there, and also adapt. The agile movement lead to the creation of many agile frameworks. If you are a Java developer, and you used Spring, you probably created plenty of technical debt in your attempt to integrate many different technologies. However, Spring Boot now makes many of the decisions for you, and as a result, helps you get to production more quickly.</p><p>This presentation will introduce Spring Boot. In the first half of the meeting, I will explain Inversion of Control, and provide an overview of the features in Spring Boot. In the second half of the presentation, I will build simple applications that integrate technologies from the whole kitchen, including the sink.<p/>",
+      "abstract": "<p>Making it to production quickly is a noble goal. You will quickly need to make many decisions on your way there, and also adapt. The agile movement lead to the creation of many agile frameworks. If you are a Java developer, and you used Spring, you probably created plenty of technical debt in your attempt to integrate many different technologies. However, Spring Boot now makes many of the decisions for you, and as a result, helps you get to production more quickly.</p><p>This presentation will introduce Spring Boot. In the first half of the meeting, I will explain Inversion of Control, and provide an overview of the features in Spring Boot. In the second half of the presentation, I will build simple applications that integrate technologies from the whole kitchen, including the sink.<p/><p>Source code from presentation available at <span class=\"fa fa-github\"></span> <a href=\"https://github.com/minmay/spring-boot-presentation.git\">https://github.com/minmay/spring-boot-presentation.git</p>",
       "speaker": {
         "name": "Marco Villalobos, LAJUG President",
         "information": "Marco Villalobos is the Los Angeles Java Users' Group President."
@@ -73,7 +73,8 @@
       "youtube": {
         "stream": "https://youtu.be/YAZj-Tz-3j4",
         "embed": "https://www.youtube.com/embed/YAZj-Tz-3j4"
-      }
+      },
+      "slides": "https://docs.google.com/presentation/d/1tF8OmJYQsmO8Pe_HZWmJZXvn0NzzRV3QUOwNMaswE_w/edit?usp=sharing"
     }
   ]
 }
