@@ -60,7 +60,7 @@
       }
     },
     {
-      "isNext": true,
+      "isNext": false,
       "date": "February 7, 2017",
       "topic": "Get to Production Faster with Spring Boot",
       "abstract": "<p>Making it to production quickly is a noble goal. You will quickly need to make many decisions on your way there, and also adapt. The agile movement lead to the creation of many agile frameworks. If you are a Java developer, and you used Spring, you probably created plenty of technical debt in your attempt to integrate many different technologies. However, Spring Boot now makes many of the decisions for you, and as a result, helps you get to production more quickly.</p><p>This presentation will introduce Spring Boot. In the first half of the meeting, I will explain Inversion of Control, and provide an overview of the features in Spring Boot. In the second half of the presentation, I will build simple applications that integrate technologies from the whole kitchen, including the sink.<p/><p>Source code from presentation available at <span class=\"fa fa-github\"></span> <a href=\"https://github.com/minmay/spring-boot-presentation.git\">https://github.com/minmay/spring-boot-presentation.git</p>",
@@ -74,6 +74,19 @@
         "stream": "https://youtu.be/YAZj-Tz-3j4",
         "embed": "https://www.youtube.com/embed/YAZj-Tz-3j4"
       },
+      "slides": "https://docs.google.com/presentation/d/1tF8OmJYQsmO8Pe_HZWmJZXvn0NzzRV3QUOwNMaswE_w/edit?usp=sharing"
+    },
+    {
+      "isNext": true,
+      "date": "June 6, 2017",
+      "topic": "Building Client-Side JavaScript Apps with Kotlin",
+      "abstract": "<p>Kotlin is a super productive and practical language from JetBrains, the makers of IntelliJ. It compiles to JVM, Native and JavaScript. JetBrains is positioning it as a \"Statically typed programming language for the JVM, Android and the browser\".</p><p>I have already ported an entire back-end API from Java to Kotlin. This was the world's smoothest language transition. And now I am in the process of converting the JavaScript front-end to Kotlin.</p><p>In this presentation, I'll show you how to create an HTML/JavaScript application using Kotlin. I'll also share some of what I learned in porting a production React/JavaScript app to React/Kotlin.</p>",
+      "speaker": {
+        "name": "Dave Ford",
+        "information": "Dave Ford is a professional developer, trainer and consultant and the owner of Smart Soft Training. Most recently he is focused on <a href=\"https://smart-soft.com/\" target=\"_blank\">React training</a> and will be releasing a new Kotlin training workshop this summer."
+      },
+      "host": "Marco Villalobos",
+      "location": "Pivotal, 1333 2nd St., Santa Monica, CA 90401",
       "slides": "https://docs.google.com/presentation/d/1tF8OmJYQsmO8Pe_HZWmJZXvn0NzzRV3QUOwNMaswE_w/edit?usp=sharing"
     }
   ]
