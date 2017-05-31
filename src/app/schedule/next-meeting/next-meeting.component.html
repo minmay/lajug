@@ -11,8 +11,8 @@
   </dd>
   <dt>YouTube Live Stream</dt>
   <dd>
-    <span *ngIf="meeting.youtube.stream"><i class="fa fa-youtube"></i> <a href="{{meeting.youtube.stream}}" target="_blank">{{meeting.youtube.stream}}</a></span>
-    <span *ngIf="!meeting.youtube.stream">None Scheduled</span>
+    <span *ngIf="meeting.youtube && meeting.youtube.stream"><i class="fa fa-youtube"></i> <a href="{{meeting.youtube.stream}}" target="_blank">{{meeting.youtube.stream}}</a></span>
+    <span *ngIf="!meeting.youtube || !meeting.youtube.stream">None Scheduled</span>
   </dd>
   <dt>Topic</dt>
   <dd>
