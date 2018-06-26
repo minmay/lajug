@@ -18,6 +18,8 @@
 .classpath
 *.launch
 .settings/
+dataSources
+.ideaDataSources
 
 # misc
 /.sass-cache
