@@ -21,7 +21,7 @@ export class ScheduleComponent implements OnInit {
   }
 
   initialize(): void {
-    this.scheduleService.findSchedule() .then(schedule => {
+    this.scheduleService.findSchedule().subscribe(schedule => {
       this.schedule = schedule;
       this.nextMeeting = schedule.meetings.find(function (meeting) {
         return meeting.isNext;

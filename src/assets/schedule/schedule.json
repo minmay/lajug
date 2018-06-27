@@ -1,93 +1,20 @@
 {
   "meetings": [
     {
-      "isNext": false,
-      "date": "February 16, 2016",
-      "topic": "Tips to Create a Modern Relational Database Design",
-      "abstract": "<p>Software Engineers are more often required to use and design relational database.</p><p>I have worked at a few places that designed and managed their relational database correctly. I have also worked at several places that seemed problematic in how they designed, used, or managed their relational database system.<p/><p>I will pass on what I have learned from these experiences to help developers, and organizations improve their database design.</p>",
-      "speaker": {
-        "name": "Marco Villalobos",
-        "information": "Marco has organized LAJUG for over 10 years. He has over 16 years experience as a Software Engineer. He loves Java, concurrency, and Ad Tech."
-      },
-      "location": "Pivotal, 1333 2nd St., Santa Monica, CA 90401",
-      "host": "Marco Villalobos",
-      "slides": "https://docs.google.com/presentation/d/1IQeHJptGnU9TWCror8f5JPH1hC6xSBBTk8rRvcj_GOc/edit?usp=sharing"
-    },
-    {
-      "isNext": false,
-      "date": "March 15, 2016",
-      "topic": "Cloud Native Java",
-      "abstract": "<p>\"It is not necessary to change. Survival is not mandatory.\" -W. Edwards Deming<p/>.<p>Work takes time to flow through an organization and ultimately be deployed to production where it captures value. It’s critical to reduce time-to-production. Software - for many organizations and industries - is a competitive advantage. Organizations break their larger software ambitions into smaller, independently deployable, feature -centric batches of work - microservices. In order to reduce the round-trip between stations of work, organizations collapse or consolidate as much of them as possible and automate the rest; developers and operations beget \"devops,\" cloud-based services and platforms (like Cloud Foundry) automate operations work and break down the need for ITIL tickets and change management boards. But velocity, for velocity’s sake, is dangerous. Microservices invite architectural complexity that few are prepared to address. In this talk, we’ll look at how high performance organizations like Ticketmaster, Alibaba, and Netflix make short work of that complexity with Spring Boot and Spring Cloud.</p>",
-      "speaker": {
-        "name": "Joshua Long",
-        "information": "Josh (@starbuxman) is the Spring Developer Advocate at Pivotal. Josh is a Java Champion, author of 5 books (including O'Reilly's upcoming \"Cloud Native Java: Designing Resilient Systems with Spring Boot, Spring Cloud, and Cloud Foundry\") and 3 best-selling video trainings (including \"Building Microservices with Spring Boot Livelessons\" w/ Phil Webb), and an open-source contributor (Spring Boot, Spring Integration, Spring Cloud, Activiti and Vaadin)"
-      },
-      "location": "Pivotal, 1333 2nd St., Santa Monica, CA 90401",
-      "host": "Marco Villalobos"
-    },
-    {
-      "isNext": false,
-      "date": "April 12, 2016",
-      "topic": "Enabling Java in Latency Sensitive Environments",
-      "abstract": "Enabling Java in Latency Sensitive Environments examines the core issues that have historically kept Java from performing well in low latency environments and then offers solutions without trade-offs and compromises. Learn about running at scale, how to keep 'all systems go', and how to make your on-call support team very bored.",
-      "speaker": {
-        "name": "Matt Schuetze",
-        "information": "<p>Matt Schuetze is the Director of Product Management at Azul Systems. He is responsible for managing requirements and charting  product roadmaps for Zing and Zulu, Azul’s two Java runtime  product families. He is excited to help usher in the budding Zulu  Embedded product offering from Azul, covering aspects of both  industrial and consumer embedded applications. Matt is also the  Azul alternate on the Executive Committee of the Java Community  Process, helps run the Detroit Java User Group, and speaks at Java  User Groups and industry trade shows regularly.</p><p>He has a Master’s degree in Nuclear Engineering from MIT, and a  Bachelor’s degree in Engineering Physics from the University of  Michigan.</p>"
-      },
-      "company": {
-        "name": "Azul Systems, Inc."
-      },
-      "location": "Pivotal, 1333 2nd St., Santa Monica, CA 90401",
-      "host": "Marco Villalobos"
-    },
-    {
-      "isNext": false,
-      "date": "November 15, 2016",
-      "topic": "Improving the Developer Experience through Docker",
-      "abstract": "Improving the Developer Experience through Docker.",
-      "speaker": {
-        "name": "Rajeev Chitamoor, Staff Software Engineer – The Walt Disney Studios",
-        "information": "Rajeev Chitamoor is a Staff Software Engineer at the Walt Disney Studios. In his current role, he leads the DAM (Digital Asset Management) system that is responsible for managing all of Disney’s digital assets pertaining to feature films. He was also part of the Disney Movies Anywhere (DMA) and KeyChest platform development within the Studios. Prior to Disney, Rajeev was involved with various early stage companies in the LA area building and scaling products and teams."
-      },
-      "company": {
-        "name": "The Walt Disney Studios",
-        "information": "At Disney, we‘re storytellers. We make the impossible, possible. We do this through utilizing and developing cutting-edge technology and pushing the envelope to bring stories to life through our movies, products, interactive games, parks and resorts, and media networks. As the global leader in high-quality family entertainment we deliver unparalleled creative content and experiences to audiences and guests around the world."
-      },
-      "location": "Disney Synergy Lab, 512 Paula Ave., Glendale, CA 91201",
-      "host": "Marco Villalobos",
-      "youtube": {
-        "stream": "https://www.youtube.com/watch?v=1lTY0Tki-J0"
-      }
-    },
-    {
-      "isNext": false,
-      "date": "February 7, 2017",
-      "topic": "Get to Production Faster with Spring Boot",
-      "abstract": "<p>Making it to production quickly is a noble goal. You will quickly need to make many decisions on your way there, and also adapt. The agile movement lead to the creation of many agile frameworks. If you are a Java developer, and you used Spring, you probably created plenty of technical debt in your attempt to integrate many different technologies. However, Spring Boot now makes many of the decisions for you, and as a result, helps you get to production more quickly.</p><p>This presentation will introduce Spring Boot. In the first half of the meeting, I will explain Inversion of Control, and provide an overview of the features in Spring Boot. In the second half of the presentation, I will build simple applications that integrate technologies from the whole kitchen, including the sink.<p/><p>Source code from presentation available at <span class=\"fa fa-github\"></span> <a href=\"https://github.com/minmay/spring-boot-presentation.git\">https://github.com/minmay/spring-boot-presentation.git</p>",
+      "isNext": true,
+      "date": "July 10, 2018",
+      "topic": "Bad Things Happen - Recognizing the Common Pitfalls in Java Concurrency Programming",
+      "abstract": "This presentation is about recognizing common mistakes and misudernstandings about concurrency programming on the Java platform.",
       "speaker": {
         "name": "Marco Villalobos, LAJUG President",
-        "information": "Marco Villalobos is the Los Angeles Java Users' Group President."
+        "information": "Marco Villalobos is a Software Engineer, and the Los Angeles Java Users' Group President."
       },
-      "location": "Huge, Inc., 6100 Wilshire Blvd, 2nd Floor, Los Angeles, CA, 90048",
+      "location": "Ticketmaster, 7060 Hollywood Blvd, 3rd Floor, Hollywood, CA, 90028",
       "host": "Marco Villalobos",
       "youtube": {
-        "stream": "https://youtu.be/YAZj-Tz-3j4",
-        "embed": "https://www.youtube.com/embed/YAZj-Tz-3j4"
-      },
-      "slides": "https://docs.google.com/presentation/d/1tF8OmJYQsmO8Pe_HZWmJZXvn0NzzRV3QUOwNMaswE_w/edit?usp=sharing"
-    },
-    {
-      "isNext": true,
-      "date": "June 6, 2017",
-      "topic": "Building Client-Side JavaScript Apps with Kotlin",
-      "abstract": "<p>Kotlin is a super productive and practical language from JetBrains, the makers of IntelliJ. It compiles to JVM, Native and JavaScript. JetBrains is positioning it as a \"Statically typed programming language for the JVM, Android and the browser\".</p><p>I have already ported an entire back-end API from Java to Kotlin. This was the world's smoothest language transition. And now I am in the process of converting the JavaScript front-end to Kotlin.</p><p>In this presentation, I'll show you how to create an HTML/JavaScript application using Kotlin. I'll also share some of what I learned in porting a production React/JavaScript app to React/Kotlin.</p>",
-      "speaker": {
-        "name": "Dave Ford",
-        "information": "Dave Ford is a professional developer, trainer and consultant and the owner of Smart Soft Training. Most recently he is focused on <a href=\"https://smart-soft.com/\" target=\"_blank\">React training</a> and will be releasing a new Kotlin training workshop this summer."
-      },
-      "host": "Marco Villalobos",
-      "location": "Pivotal, 1333 2nd St., Santa Monica, CA 90401",
-      "slides": "https://docs.google.com/presentation/d/1tF8OmJYQsmO8Pe_HZWmJZXvn0NzzRV3QUOwNMaswE_w/edit?usp=sharing"
+        "stream": "https://youtu.be/5P1pbu63Elo",
+        "embed": "https://www.youtube.com/embed/5P1pbu63Elo"
+      }
     }
   ]
 }
