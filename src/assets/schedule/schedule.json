@@ -4,7 +4,7 @@
       "isNext": true,
       "date": "July 10, 2018",
       "topic": "Bad Things Happen - Recognizing the Common Pitfalls in Java Concurrency Programming",
-      "abstract": "This presentation is about recognizing common mistakes and misudernstandings about concurrency programming on the Java platform.",
+      "abstract": "This presentation is about recognizing common mistakes and misunderstandings with concurrency programming on the Java platform.",
       "speaker": {
         "name": "Marco Villalobos, LAJUG President",
         "information": "Marco Villalobos is a Software Engineer, and the Los Angeles Java Users' Group President."
