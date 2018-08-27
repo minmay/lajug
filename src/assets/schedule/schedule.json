@@ -2,6 +2,36 @@
   "meetings": [
     {
       "isNext": true,
+      "date": "September 11, 2018",
+      "topic": "Accelerating the Future of Java",
+      "abstract": "As one of the most pervasively used technologies in our lifetime, Java continues to innovate the application world around us. Through continued modernization Java offers developers a contemporary language and platform to create the next generation of rich, scalable, and secure enterprise applications. And as the technology landscape changes around us, often times at an ever-more increasing pace, Java is primed to offer developers continued uniqueness to address new-found opportunities. Hear from Georges Saab (VP, Java Platform Group and OpenJDK Chairperson) to learn how Oracle is continuing to steward ongoing Java technology enhancements by covering the Java release process, OpenJDK, Oracle JDK, and how licensing will affect companies.",
+      "speaker": {
+        "name": "Georges Saab",
+        "information": "Georges Saab is the vice president of development for the Java Platform Group at Oracle. His group is responsible for Java Standard Edition including the Java language, core libraries, and the Java Virtual Machine. Georges is a veteran of programming language and platform development, with more than 25 years in this field. His work with the Java platform began as a developer of Java Standard Edition at JavaSoft and Sun Microsystems, where he was a founder of the Swing group and Java Webstart, and continued as he ran development of the JRockit JVM for many years at BEA Systems. Georges is the Chairperson of the OpenJDK governing board."
+      },
+      "company": {
+        "name": "Oracle Corporation"
+      },
+      "location": "Ticketmaster, 7060 Hollywood Blvd, 3rd Floor, Hollywood, CA, 90028",
+      "host": "Marco Villalobos"
+    },
+    {
+      "isNext": false,
+      "date": "August 7, 2018",
+      "topic": "Launching the Micro Future: Groovy, Grails, and Micronaut",
+      "abstract": "<p>In this talk, Jeff Brown will demonstrate how the future of Grails, GORM, and Micronaut are linked, as well as how the OCI Groovy and Grails team is taking productivity around developing microservices to the next level!</p><p>Micronaut is a new JVM-based, full-stack framework for building modular, easily testable microservice applications. Unlike reflection-based IoC frameworks, which load and cache reflection data for every single field, method, and constructor in your code, with Micronaut, your application startup time and memory consumption are not bound to the size of your codebase.</p><p>The Micronaut framework shares many core values with Grails, including the enablement of code simplicity and developer productivity. Micronaut offers many additional features for a new class of applications (e.g., microservices, serverless deployments, etc.) that may not be well-suited for Grails.</p> <p>Compelling aspects of the Micronaut framework include: <ul> <li> Sub-second startup time <li> Tiny processes that may run in as little as 8mb of heap <li> No runtime reflection <li> Dependency injection <li> Load balancing <li> And more! </ul></p>",
+      "speaker": {
+        "name": "Jeff Brown",
+        "information": "<p>Jeff Scott Brown is the co-founder of the Grails and Micronaut frameworks, leads the Grails and Micronaut practices at OCI (objectcomputing.com), and is also Partner at OCI.  He has been doing JVM application development for as long as the JVM has existed. He has spent most of the last decade focused specifically on work related to the Grails framework, is a key contributor to the frameworks’ core development, and recently co-founded the Micronaut framework.</p><p>You can find Jeff on Twitter @jeffscottbrown (<a href='https://twitter.com/jeffscottbrown' target='_blank'>https://twitter.com/jeffscottbrown</a>)</p>"
+      },
+      "company": {
+        "name": "OCI (Object Computing, Inc.)"
+      },
+      "location": "Ticketmaster, 7060 Hollywood Blvd, 3rd Floor, Hollywood, CA, 90028",
+      "host": "Marco Villalobos"
+    },
+    {
+      "isNext": false,
       "date": "July 10, 2018",
       "topic": "Bad Things Happen - Recognizing the Common Pitfalls in Java Concurrency Programming",
       "abstract": "This presentation is about recognizing common mistakes and misunderstandings with concurrency programming on the Java platform.",
