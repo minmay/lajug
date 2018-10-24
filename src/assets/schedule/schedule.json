@@ -2,6 +2,21 @@
   "meetings": [
     {
       "isNext": true,
+      "date": "October 2, 2018",
+      "topic": "'Get ready for an exciting but stormy 2019' and 'Java at Speed: Get the Most out of Modern Hardware'",
+      "abstract": "<b>Get ready for an exciting but stormy 2019.</b><p>The Java world is in the midst of tectonic shift. With dramatic changes to the pace of feature introduction, release lifecycles, compatibility policies, security update policies, and the required pace of adoption in production all happening at the same time, the world ahead will look nothing like what you may have gotten used to. In the short talk, Gil Tene (CTO, Azul Systems) will provide a quick overview of what developers and operational people need to know if Java is part of their world.</p><b>Java at Speed: Get the Most out of Modern Hardware</b><p>Getting the most of your Java applications can be an interesting challenge. Understanding some of the optimizations the latest crop of JVMs are able to apply when running on the latest servers may help with that. This talk will discuss some of those features and optimizations. Along with discussing some JIT compiler capabilities, we will take a look at the evolution of Inte-based server platforms, quickly traversing through features that were introduced over the past few years. We will demonstrate some examples of JVM JITs using these capabilities where available, as they adapt the code they generate to the specific processors they run on.</p><p>If you like to geek out to the sound of mechanical sympathy discussions, this is the talk for you.</p>",
+      "speaker": {
+        "name": "Gil Tene, CTO & Co-Founder, Java Champion",
+        "information": "<p>Gil Tene (Twitter: @giltene) is CTO and co-founder of Azul Systems. He has been involved with virtual machine technologies for the past 20 years and has been building Java technology-based products since 1995. Gil pioneered Azul’s Continuously Concurrent Compacting Collector (C4), Java Virtualization, Elastic Memory, and various managed runtime and systems stack technologies that combine to deliver the industry’s most scalable and robust Java platforms. Gil also represents Azul Systems on the JCP (Java Community Process) executive committee.</p><p>A frequent speaker and JavaOne “RockStar”, in September 2013 Gil was named “JCP member/participant of the year” at an awards ceremony at JavaOne. In December 2017 he was named a Java Champion, and in 2006 he was named one of the Top 50 Agenda Setters in the technology industry by Silicon.com.</p><p>Prior to co-founding Azul, Gil held key technology positions at Nortel Networks, Shasta Networks and at Check Point Software Technologies, where he delivered several industry-leading traffic management solutions including the industry’s first Firewall-1 based security appliance. He architected operating systems for Stratus Computer, clustering solutions at Qualix/Legato, and served as an officer in the Israeli Navy Computer R and D unit.</p><p>Gil holds a BSEE from The Technion Israel Institute of Technology, and has been awarded over 40 patents in computer-related technologies. <a href='http://stuff-gil-says.blogspot.com/' target='_blank'>You can read his blog here</a>.</p>"
+      },
+      "company": {
+        "name": "Azul Corporation"
+      },
+      "location": "Ticketmaster, 7060 Hollywood Blvd, 3rd Floor, Hollywood, CA, 90028",
+      "host": "Marco Villalobos"
+    },
+    {
+      "isNext": false,
       "date": "September 11, 2018",
       "topic": "Accelerating the Future of Java",
       "abstract": "As one of the most pervasively used technologies in our lifetime, Java continues to innovate the application world around us. Through continued modernization Java offers developers a contemporary language and platform to create the next generation of rich, scalable, and secure enterprise applications. And as the technology landscape changes around us, often times at an ever-more increasing pace, Java is primed to offer developers continued uniqueness to address new-found opportunities. Hear from Georges Saab (VP, Java Platform Group and OpenJDK Chairperson) to learn how Oracle is continuing to steward ongoing Java technology enhancements by covering the Java release process, OpenJDK, Oracle JDK, and how licensing will affect companies.",
